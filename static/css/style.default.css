@@ -7,6 +7,23 @@ Startup Template By Bootstrapious.com
 ========================================= 
 ========================================= */
 /* variant 6  - pink */
+
+/*
+
+=====================
+TWEAK
+=====================
+
+*/
+@media (min-width:768px) {
+  .col-sb-fixedpos {
+    position: fixed;
+  }
+  .col-main-fixedpos {
+    float: right;
+  }
+}
+
 /*
 
 =====================
