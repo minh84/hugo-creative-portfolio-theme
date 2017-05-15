@@ -880,7 +880,10 @@ a:active {
   color: #999999;
   font-size: 14px;
 }
+
+/* adding pointer-events: none; so the whole box become clickable*/
 .box-masonry .box-masonry-hover-text-header {
+  pointer-events: none;  
   position: absolute;
   left: 0;
   right: 0;
