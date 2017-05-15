@@ -10,22 +10,18 @@
     </div>
 
     <div class="col-md-6">
-        <h1>{{ .Title }}</h1>
-            <p class="author-category">
-              {{ .Params.author }}
-            </p>
+      <h1>{{ .Title }}</h1>
+      <p class="author-category">
+        {{ .Params.author }}
+      </p>
 
-            <p class="date-comments">
-            <i class="fa fa-calendar-o"></i> {{ .Date.Format "January 2, 2006" }}
-            </p>
+      <p class="date-comments">
+      <i class="fa fa-calendar-o"></i> {{ .Date.Format "January 2, 2006" }}
+      </p>
 
-            {{if eq .Section "portfolio"}}
-            <p class="author-category"><b>{{ .Summary }}</b></p>
-            {{end}}
-
-        </div>
-      </div>
-    </br>
+    </div>
+  </div>
+  </br>
 
   <div class="row">
     <div class="col-lg-10">
